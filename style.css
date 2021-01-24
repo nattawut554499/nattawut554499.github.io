@@ -39,7 +39,7 @@ body {
     transform: translate(-50%,-80%);
 }
 #e_logo1{
-    animation: fills 3s ease forwards 3.8s;
+    animation: fills 1.5s ease forwards 3.5s;
 }
 
 #e_logo1 path:nth-child(2){
