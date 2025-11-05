@@ -70,8 +70,7 @@ function getCurrentPeriod(timetable) {
 
     var schedule = timetable[today];
     if (!schedule) return null
-
-    const currentTime = `${now.getHours()}:${now.getMinutes()}`;
+    const currentTime = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}`;
 
     for(period of schedule) {
         if(currentTime >= period.startTime && currentTime <= period.endTime){
@@ -107,5 +106,3 @@ var currentPeriod = getCurrentPeriod(timetable);
 if(currentPeriod){
     setColor(currentPeriod);
 }
-
-console.log(currentPeriod);
