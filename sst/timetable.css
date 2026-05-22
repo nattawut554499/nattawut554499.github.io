@@ -1,0 +1,35 @@
+* {
+  font-family: "Itim", cursive;
+  font-style: normal;
+}
+
+body {
+  background-color: #fcf9ff;
+}
+
+.row-period {
+  background-color: #5839c6;
+  color: white;
+}
+
+.row-time {
+  background-color: #9e39c6;
+  color: white;
+}
+
+.col-day {
+  background-color: #c639a7;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(202, 202, 202);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  color: #686868;
+}
