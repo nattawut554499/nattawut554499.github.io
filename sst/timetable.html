@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timetable.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Timetable</title>
+</head>
+
+<body>
+    <table style="border: 1px solid #bfbfbf; width: 100%;">
+        <thead>
+            <tr class="row-period">
+                <th>คาบที่</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th rowspan="2">12:10 - 13:20</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+            </tr>
+            <tr class="row-time">
+                <th>วัน / เวลา</th>
+                <th>08:10 - 09:00</th>
+                <th>09:00 - 09:50</th>
+                <th>09:50 - 10:40</th>
+                <th>10:40 - 11:30</th>
+                <th>11:30 - 12:10</th>
+                <th>13:20 - 14:00</th>
+                <th>14:00 - 14:40</th>
+                <th>14:40 - 15:20</th>
+                <th>15:20 - 16:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="col-day">จันทร์</th>
+                <td id="monday-1" rowspan="5">กุรอาน</td>
+                <td id="monday-2">ComSci 2/2</td>
+                <td id="monday-3">Program 6</td>
+                <td id="monday-4"></td>
+                <td id="monday-5">ComSci 1/2</td>
+                <td id="monday-break" rowspan="5">พักกลางวัน</td>
+                <td id="monday-6">Program 5</td>
+                <td id="monday-7"></td>
+                <td id="monday-8"></td>
+                <td id="monday-9"></td>
+            </tr>
+            <tr>
+                <th class="col-day">อังคาร</th>
+                <td id="tuesday-2">Program 4</td>
+                <td id="tuesday-3"></td>
+                <td id="tuesday-4"></td>
+                <td id="tuesday-5">TechDesign 6</td>
+                <td id="tuesday-6"></td>
+                <td id="tuesday-7">TechDesign 4</td>
+                <td id="tuesday-8">Program 1/1</td>
+                <td id="tuesday-9"></td>
+            </tr>
+            <tr>
+                <th class="col-day">พุธ</th>
+                <td id="wednesday-2"></td>
+                <td id="wednesday-3">Program 3/1</td>
+                <td id="wednesday-4"></td>
+                <td id="wednesday-5"></td>
+                <td id="wednesday-6">Program 2/1</td>
+                <td id="wednesday-7"></td>
+                <td id="wednesday-8">ComSci 1/1</td>
+                <td id="wednesday-9"></td>
+            </tr>
+            <tr>
+                <th class="col-day">พฤหัสบดี</th>
+                <td id="thursday-2">Program 2/2</td>
+                <td id="thursday-3">ComSci 2/1</td>
+                <td id="thursday-4"></td>
+                <td id="thursday-5"></td>
+                <td id="thursday-6"></td>
+                <td id="thursday-7">Program 1/2</td>
+                <td id="thursday-8">ComSci 6</td>
+                <td id="thursday-9">TechDesign 5</td>
+            </tr>
+            <tr>
+                <th class="col-day">ศุกร์</th>
+                <td id="friday-2">ComSci 4</td>
+                <td id="friday-3"></td>
+                <td id="friday-4">ComSci 5</td>
+                <td id="friday-5">ชุมนุม</td>
+                <td id="friday-6">ComSci 3</td>
+                <td id="friday-7"></td>
+                <td id="friday-8"></td>
+                <td id="friday-9"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="timetable.js"></script>
+</body>
+
+</html>
